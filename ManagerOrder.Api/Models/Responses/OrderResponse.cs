@@ -5,6 +5,8 @@
         public List<ProductResponse> Products { get; set; } = new List<ProductResponse>();
 
         public decimal TotalPrice { get; set; }
+
+        public string Currency { get; set; } = "VNĐ";
     }
 
     public class ProductResponse
@@ -18,5 +20,7 @@
         public decimal UnitPrice { get; set; }
 
         public decimal TotalPrice { get; set; }
+
+        public string Currency { get; set; } = "VNĐ";
     }
 }
